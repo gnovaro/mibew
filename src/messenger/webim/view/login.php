@@ -52,7 +52,7 @@ require_once('inc_errors.php');
 		<div class="field">
 			<div class="fleftlabel"><?php echo getlocal("page_login.login") ?></div>
 			<div class="fvalue">
-				<input type="text" name="login" size="25" value="<?php echo form_value('login') ?>" class="formauth"/>
+				<input type="text" name="login" size="25" value="<?php echo form_value('login') ?>" class="formauth" required="required" />
 			</div>
 			<br clear="all"/>
 		</div>
@@ -60,7 +60,7 @@ require_once('inc_errors.php');
 		<div class="field">
 			<div class="fleftlabel"><?php echo getlocal("page_login.password") ?></div>
 			<div class="fvalue">
-				<input type="password" name="password" size="25" value="" class="formauth"/>
+				<input type="password" name="password" size="25" value="" class="formauth" required="required" />
 			</div>
 			<br clear="all"/>
 		</div>
