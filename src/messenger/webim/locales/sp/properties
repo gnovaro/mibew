@@ -455,4 +455,4 @@ notification.label.subj=Asunto
 page.groups.isonline=Conectado
 page_agents.isonline=Conectado
 resetpwd.changed.title=Tu contraseña ha sido cambiada!
-restore.pwd.message=¿Perdiste tu contraseña?
+restore.pwd.message=¿Olvidaste tu contraseña?
